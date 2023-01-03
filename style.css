@@ -1,0 +1,71 @@
+body {
+    background-color: #e8eced;
+    color: #2f3030;
+    font-family: Roboto, sans-serif;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    flex-basis: 15em;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.grid {
+    background-color: white;
+    height: 16cm;
+    width: 16cm;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #2f3030;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none; /*change color of the swatch border here*/
+	border-radius: 40px;
+}
+
+.gridElement {
+    width: 1cm;
+    height: 1cm;
+}
